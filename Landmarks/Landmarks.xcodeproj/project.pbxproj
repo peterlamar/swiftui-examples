@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16DA90C23D0F42B008552D6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C16DA90B23D0F42B008552D6 /* turtlerock.jpg */; };
 		C175CFFD23CF8F43005300AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175CFFC23CF8F43005300AA /* AppDelegate.swift */; };
 		C175CFFF23CF8F43005300AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175CFFE23CF8F43005300AA /* SceneDelegate.swift */; };
 		C175D00123CF8F43005300AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175D00023CF8F43005300AA /* ContentView.swift */; };
@@ -14,7 +15,6 @@
 		C175D00623CF8F45005300AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C175D00523CF8F45005300AA /* Preview Assets.xcassets */; };
 		C175D00923CF8F45005300AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C175D00723CF8F45005300AA /* LaunchScreen.storyboard */; };
 		C175D01423CF8F45005300AA /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175D01323CF8F45005300AA /* LandmarksTests.swift */; };
-		C175D01F23CFA11B005300AA /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C175D01E23CFA11A005300AA /* turtlerock.jpg */; };
 		C175D02223CFA6AA005300AA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175D02123CFA6AA005300AA /* CircleImage.swift */; };
 		C175D02423CFB46B005300AA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175D02323CFB46B005300AA /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C16DA90723D0F22A008552D6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock.jpg; path = ../../ListsAndNav/Landmarks/Assets.xcassets/turtlerock.jpg; sourceTree = "<group>"; };
+		C16DA90923D0F2A7008552D6 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = Landmarks/Assets; sourceTree = "<group>"; };
+		C16DA90B23D0F42B008552D6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock.jpg; path = Landmarks/Assets/turtlerock.jpg; sourceTree = "<group>"; };
 		C175CFF923CF8F43005300AA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C175CFFC23CF8F43005300AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C175CFFE23CF8F43005300AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,9 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C16DA90623D0F209008552D6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C16DA90723D0F22A008552D6 /* turtlerock.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		C175CFF023CF8F43005300AA = {
 			isa = PBXGroup;
 			children = (
+				C16DA90B23D0F42B008552D6 /* turtlerock.jpg */,
+				C16DA90923D0F2A7008552D6 /* Assets */,
 				C175D02523D0E2D0005300AA /* README.md */,
 				C175CFFB23CF8F43005300AA /* Landmarks */,
 				C175D01223CF8F45005300AA /* LandmarksTests */,
@@ -87,6 +100,7 @@
 		C175CFFB23CF8F43005300AA /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				C16DA90623D0F209008552D6 /* Assets */,
 				C175CFFC23CF8F43005300AA /* AppDelegate.swift */,
 				C175CFFE23CF8F43005300AA /* SceneDelegate.swift */,
 				C175D00023CF8F43005300AA /* ContentView.swift */,
@@ -199,7 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C175D01F23CFA11B005300AA /* turtlerock.jpg in Resources */,
+				C16DA90C23D0F42B008552D6 /* turtlerock.jpg in Resources */,
 				C175D00923CF8F45005300AA /* LaunchScreen.storyboard in Resources */,
 				C175D00623CF8F45005300AA /* Preview Assets.xcassets in Resources */,
 				C175D00323CF8F45005300AA /* Assets.xcassets in Resources */,
