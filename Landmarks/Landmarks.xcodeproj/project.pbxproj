@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C16DA90C23D0F42B008552D6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C16DA90B23D0F42B008552D6 /* turtlerock.jpg */; };
 		C175CFFD23CF8F43005300AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175CFFC23CF8F43005300AA /* AppDelegate.swift */; };
 		C175CFFF23CF8F43005300AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175CFFE23CF8F43005300AA /* SceneDelegate.swift */; };
 		C175D00123CF8F43005300AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175D00023CF8F43005300AA /* ContentView.swift */; };
@@ -213,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16DA90C23D0F42B008552D6 /* turtlerock.jpg in Resources */,
 				C175D00923CF8F45005300AA /* LaunchScreen.storyboard in Resources */,
 				C175D00623CF8F45005300AA /* Preview Assets.xcassets in Resources */,
 				C175D00323CF8F45005300AA /* Assets.xcassets in Resources */,
