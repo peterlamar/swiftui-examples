@@ -11,3 +11,5 @@
 ## Useful links
 
 1. [Swift Reference](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+1. [Apple Swift Book](https://books.apple.com/us/book/swift-programming-language/id881256329)
+1. [Awesome Swift](https://github.com/chinsyo/awesome-swiftui)
