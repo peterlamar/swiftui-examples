@@ -7,6 +7,7 @@
 ## External Links only
 
 1. [Dynamic Lists](https://medium.com/flawless-app-stories/swiftui-dynamic-list-identifiable-73c56215f9ff)
+1. [MVVM Example](https://www.letsbuildthatapp.com/guide/section/MVVM-ObservableObject-JSON-Fetching)
 
 ## Useful links
 
