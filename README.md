@@ -16,3 +16,4 @@
 1. [Apple Swift Book](https://books.apple.com/us/book/swift-programming-language/id881256329)
 1. [Awesome Swift](https://github.com/chinsyo/awesome-swiftui)
 1. [Custom SwiftUI Control](https://www.youtube.com/watch?v=CwD4cScGCq8)
+1. [Parsing JSON with Swift](https://benscheirman.com/2017/06/swift-json/)
