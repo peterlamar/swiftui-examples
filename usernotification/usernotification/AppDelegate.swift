@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  IOSLocalNotificationTutorial
+//  usernotification
 //
-//  Created by Peter Lamar on 1/19/20.
+//  Created by Peter Lamar on 2/14/20.
 //  Copyright © 2020 Peter Lamar. All rights reserved.
 //
 
@@ -14,16 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        /*
-        
-        application.registerUserNotificationSettings(UIUserNotificationSettings(types: UIUserNotificationType(rawValue: UIUserNotificationType.sound.rawValue | UIUserNotificationType.badge.rawValue | UIUserNotificationType.alert.rawValue), categories: nil))
-*/
-        let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .sound]) { granted, error in
-            // Enable or disable features based on authorization.
-        }
-        
         // Override point for customization after application launch.
         return true
     }

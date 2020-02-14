@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  IOSLocalNotificationTutorial
+//  usernotification
 //
-//  Created by Peter Lamar on 1/19/20.
+//  Created by Peter Lamar on 2/14/20.
 //  Copyright © 2020 Peter Lamar. All rights reserved.
 //
 

@@ -1,15 +1,15 @@
 //
-//  IOSLocalNotificationTutorialTests.swift
-//  IOSLocalNotificationTutorialTests
+//  usernotificationTests.swift
+//  usernotificationTests
 //
-//  Created by Peter Lamar on 1/19/20.
+//  Created by Peter Lamar on 2/14/20.
 //  Copyright © 2020 Peter Lamar. All rights reserved.
 //
 
 import XCTest
-@testable import IOSLocalNotificationTutorial
+@testable import usernotification
 
-class IOSLocalNotificationTutorialTests: XCTestCase {
+class usernotificationTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
