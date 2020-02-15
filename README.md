@@ -3,6 +3,7 @@
 1. [Landmarks](https://github.com/peterlamar/ios-examples/tree/master/Landmarks)
 1. [ListAndNav](https://github.com/peterlamar/ios-examples/tree/master/ListsAndNav)
 1. [Local Notification](https://github.com/peterlamar/ios-examples/tree/master/usernotification)
+1. [Foreground Notifcations](https://github.com/peterlamar/ios-examples/tree/master/NotificationDelegate) - Notifications that also occur in the foreground while your app is open. 
 1. [ViewBuilder](https://github.com/peterlamar/ios-examples/tree/master/viewbuilder)
 
 ## External Links only
