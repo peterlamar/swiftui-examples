@@ -1,10 +1,9 @@
 # ios-examples
 
-1. [Landmarks](https://github.com/peterlamar/ios-examples/tree/master/Landmarks)
-1. [ListAndNav](https://github.com/peterlamar/ios-examples/tree/master/ListsAndNav)
 1. [Local Notification](https://github.com/peterlamar/ios-examples/tree/master/usernotification) - Simple background notifications only
 1. [Foreground Notifcations](https://github.com/peterlamar/ios-examples/tree/master/NotificationDelegate) - Notifications that also occur in the foreground while your app is open. 
 1. [ViewBuilder](https://github.com/peterlamar/ios-examples/tree/master/viewbuilder)
+1. [UserActionNotification](https://github.com/peterlamar/ios-examples/tree/master/userActionNotification) - Create user actions in Notifications that appear below the notification when viewed from the main screen
 
 ## External Links only
 
