@@ -4,6 +4,7 @@
 1. [Foreground Notifcations](https://github.com/peterlamar/ios-examples/tree/master/NotificationDelegate) - Notifications that also occur in the foreground while your app is open. 
 1. [ViewBuilder](https://github.com/peterlamar/ios-examples/tree/master/viewbuilder)
 1. [UserActionNotification](https://github.com/peterlamar/ios-examples/tree/master/userActionNotification) - Create user actions in Notifications that appear below the notification when viewed from the main screen
+1. [UIKitNotification](https://github.com/peterlamar/ios-examples/tree/master/UIKitNotification) - Example of custom UIKit notification from Swift
 
 # IOS-Examples UIKit
 
