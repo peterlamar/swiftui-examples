@@ -10,30 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     @State var sColor = Color.black
-    
-     var body: some View {
 
-
+    var body: some View {
         return VStack {
             Button("Tap Me!") {
                 print("button pressed!")
-
                 self.sColor = Color.red
 
             }.buttonStyle(MyButtonStyle(color: sColor))
         }
-
     }
 }
 
 struct MyButtonStyle: ButtonStyle {
     var color: Color
-    
+
     public func makeBody(configuration: MyButtonStyle.Configuration) -> some View {
-                
-        print ("inside button style")
+        print("inside button style")
         print(color)
-        
+
         return configuration.label
             .foregroundColor(.white)
             .padding(15)
