@@ -44,13 +44,13 @@ struct ContentView: View {
 
                     // create the notification's content to be presented
                     // to the user
-                    
+
                     content.title = "DEBIT OVERDRAFT NOTICE!"
-                    
+
                     content.subtitle = "Exceeded balance by $2."
                     content.body = "One-time overdraft fee is $500. Should we cover transaction?"
                     content.sound = UNNotificationSound.default
-                    
+
                     // #2.2 - create a "trigger condition that causes a notification
                     // to be delivered after the specified amount of time elapses";
                     // deliver after 10 seconds

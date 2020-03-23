@@ -10,12 +10,11 @@ import UserNotifications
 
 struct ContentView: View {
     var body: some View {
-        
         let hiddenPreviewsPlaceholder = "Really cool preview"
 
         let playAction = UNNotificationAction(identifier: "yes-action", title: "Take All My Money", options: [])
         let queueAction = UNNotificationAction(identifier: "no-action", title: "Please No", options: [])
-        
+
         // #1.1 - Create "the notification's category value--its type."
         let debitOverdraftNotifCategory = UNNotificationCategory(identifier: "debitOverdraftNotification", actions: [playAction, queueAction], intentIdentifiers: [], hiddenPreviewsBodyPlaceholder: hiddenPreviewsPlaceholder, options: [])
         // #1.2 - Register the notification type.

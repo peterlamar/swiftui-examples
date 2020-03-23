@@ -11,23 +11,21 @@ import UserNotifications
 import UserNotificationsUI
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
-
     @IBOutlet var label: UILabel?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any required interface initialization here.
     }
-    
+
     func didReceive(_ notification: UNNotification) {
-        self.label?.text = notification.request.content.body
+        label?.text = notification.request.content.body
     }
-    
-    func didReceive(_ response: UNNotificationResponse, completionHandler completion:
+
+    func didReceive(_ response: UNNotificationResponse, completionHandler _:
         (UNNotificationContentExtensionResponseOption) -> Void) {
-        
         guard let currentActions = extensionContext?.notificationActions else { return }
-        
+
         if response.actionIdentifier == "yes-action" {
             print("All your money are belong to us")
         }

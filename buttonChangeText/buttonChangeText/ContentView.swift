@@ -7,34 +7,41 @@
 //
 
 import SwiftUI
-struct ContentView : View {
-  @State var pokemonName = "Charmander"
-  var body: some View {
-    VStack {
-      Text(pokemonName)
-        .frame(
-          width: UIScreen.main.bounds.width,
-          height: 50
-        )
-        .background(Color.blue)
-        .foregroundColor(Color.white)
-        .padding(10)
-        
-      Button(
-        action: { self.switchPokemon() },
-        label: { Text("Switch") }
-      )
+struct ContentView: View {
+    @State var colors: [Color] = [Color.white, Color.white]
+
+    var body: some View {
+        HStack {
+            Spacer()
+
+            Button(
+                action: { self.switchSelection(index: 0) },
+                label: { Text("Pick Me") }
+            ).background(colors[0])
+            Spacer()
+            Button(
+                action: { self.switchSelection(index: 1) },
+                label: { Text("No, Pick Me") }
+            ).background(colors[1])
+            Spacer()
+        }
     }
-  }
-  func switchPokemon() {
-    let list = ["Squirtle", "Bulbasaur", "Charmander", "Pikachu"]
-    pokemonName = list.randomElement() ?? ""
-  }
+
+    func switchSelection(index: Int) {
+        if index == 0 {
+            colors[0] = Color.orange
+            colors[1] = Color.white
+        } else if index == 1 {
+            colors[0] = Color.white
+            colors[1] = Color.orange
+        }
+    }
 }
+
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
-}
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
 #endif

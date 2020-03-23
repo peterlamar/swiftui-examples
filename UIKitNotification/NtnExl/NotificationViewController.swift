@@ -11,25 +11,23 @@ import UserNotifications
 import UserNotificationsUI
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
-    
-    @IBOutlet weak var SubLabel: UILabel!
-    
+    @IBOutlet var SubLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any required interface initialization here.
     }
 
     // Init
-    func didReceive(_ notification: UNNotification) {
-        self.SubLabel?.text = "Short impressive subtitle"
+    func didReceive(_: UNNotification) {
+        SubLabel?.text = "Short impressive subtitle"
     }
 
     // This runs when button is pressed
     func didReceive(_ response: UNNotificationResponse, completionHandler _:
         (UNNotificationContentExtensionResponseOption) -> Void) {
-        
         print("code ran")
-        
+
         guard let currentActions = extensionContext?.notificationActions else { return }
 
         if response.actionIdentifier == "yes-action" {
