@@ -7,6 +7,7 @@
 
 1. [buttonStateChange](https://github.com/peterlamar/ios-examples/tree/master/buttonStateChange) - Update a swiftUI button's state on button press
 1. [buttonChangeText](https://github.com/peterlamar/ios-examples/tree/master/buttonChangeText) - Update a separate swiftUI text field from a button press
+1. [exclusiveButton](https://github.com/peterlamar/ios-examples/tree/master/exclusiveButtons) - Exclusive OR implemented with two buttons, one turns on while it turns off the other. 
 
 # IOS-Examples UIKit
 
