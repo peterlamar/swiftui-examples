@@ -4,13 +4,15 @@
 1. [Foreground Notifcations](https://github.com/peterlamar/ios-examples/tree/master/NotificationDelegate) - Notifications that also occur in the foreground while your app is open. 
 1. [ViewBuilder](https://github.com/peterlamar/ios-examples/tree/master/viewbuilder)
 1. [UserActionNotification](https://github.com/peterlamar/ios-examples/tree/master/userActionNotification) - Create user actions in Notifications that appear below the notification when viewed from the main screen
-1. [UIKitNotification](https://github.com/peterlamar/ios-examples/tree/master/UIKitNotification) - Example of custom UIKit notification from Swift
+
 1. [buttonStateChange](https://github.com/peterlamar/ios-examples/tree/master/buttonStateChange) - Update a swiftUI button's state on button press
+1. [buttonChangeText](https://github.com/peterlamar/ios-examples/tree/master/buttonChangeText) - Update a separate swiftUI text field from a button press
 
 # IOS-Examples UIKit
 
 1. [UI Kit Basics](https://github.com/peterlamar/ios-examples/tree/master/UIKitBasics) - Follow basic arrangement and understanding of UIKit and storyboard
 1. [Storyboard Actions](https://github.com/peterlamar/ios-examples/tree/master/warCardGame) - Add functions to storyboard 
+1. [UIKitNotification](https://github.com/peterlamar/ios-examples/tree/master/UIKitNotification) - Example of custom UIKit notification from Swift
 
 ## External Links Only
 
@@ -24,3 +26,4 @@
 1. [Awesome Swift](https://github.com/chinsyo/awesome-swiftui)
 1. [Custom SwiftUI Control](https://www.youtube.com/watch?v=CwD4cScGCq8)
 1. [Parsing JSON with Swift](https://benscheirman.com/2017/06/swift-json/)
+1. [SwiftUI Guide](https://github.com/fzhlee/SwiftUI-Guide)
