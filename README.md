@@ -19,6 +19,7 @@
 
 1. [Dynamic Lists](https://medium.com/flawless-app-stories/swiftui-dynamic-list-identifiable-73c56215f9ff)
 1. [MVVM Example](https://www.letsbuildthatapp.com/guide/section/MVVM-ObservableObject-JSON-Fetching)
+1. [UserNotifications Framework Delegate Protocol](https://www.devfright.com/use-usernotifications-framework-delegate-protocol/) - Handle notification actions
 
 ## Misc Useful Links
 
