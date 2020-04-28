@@ -9,6 +9,8 @@
 1. [buttonChangeText](https://github.com/peterlamar/ios-examples/tree/master/buttonChangeText) - Update a separate swiftUI text field from a button press
 1. [exclusiveButton](https://github.com/peterlamar/ios-examples/tree/master/exclusiveButtons) - Exclusive OR implemented with two buttons, one turns on while it turns off the other. 
 1. [listinlist](https://github.com/peterlamar/ios-examples/tree/master/listinlist) - Display a list in list
+1. [animatedbuttons](https://github.com/peterlamar/ios-examples/tree/master/animatedButtons) - Basic example showing buttons with a scale effect on press as well as buttonstyle to apply to multiple buttons.
+
 
 
 # IOS-Examples UIKit
