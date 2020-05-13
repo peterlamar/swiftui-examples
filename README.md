@@ -35,3 +35,4 @@
 1. [Custom SwiftUI Control](https://www.youtube.com/watch?v=CwD4cScGCq8)
 1. [Parsing JSON with Swift](https://benscheirman.com/2017/06/swift-json/)
 1. [SwiftUI Guide](https://github.com/fzhlee/SwiftUI-Guide)
+1. [TestFlight tutorial](https://www.raywenderlich.com/5352-testflight-tutorial-ios-beta-testing)
