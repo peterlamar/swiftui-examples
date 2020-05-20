@@ -12,7 +12,7 @@
 1. [animatedbuttons](https://github.com/peterlamar/ios-examples/tree/master/animatedButtons) - Basic example showing buttons with a scale effect on press as well as buttonstyle to apply to multiple buttons.
 1. [transitionButtons](https://github.com/peterlamar/ios-examples/tree/master/transitionButtons) - Simple button that transitions into frame
 1. [sublistDelete](https://github.com/peterlamar/ios-examples/tree/master/sublistDelete) - Delete from a sublist with tricky swiftui syntax
-
+1. [coredatasample](https://github.com/peterlamar/ios-examples/tree/master/coredatasample) - Intro to storing data on iOS
 
 # IOS-Examples UIKit
 
