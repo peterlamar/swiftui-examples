@@ -20,7 +20,6 @@
 		84402CAB247FF3B400B3C7C0 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84402CA7247FF3B400B3C7C0 /* Candy+CoreDataProperties.swift */; };
 		84402CAC247FF3B400B3C7C0 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84402CA8247FF3B400B3C7C0 /* Country+CoreDataClass.swift */; };
 		84402CAD247FF3B400B3C7C0 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84402CA9247FF3B400B3C7C0 /* Country+CoreDataProperties.swift */; };
-		84402CB02480186500B3C7C0 /* coredatarel in Resources */ = {isa = PBXBuildFile; fileRef = 84402CAF2480186500B3C7C0 /* coredatarel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		84402CA8247FF3B400B3C7C0 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Country+CoreDataClass.swift"; path = "coreDataRelationships/Country+CoreDataClass.swift"; sourceTree = "<group>"; };
 		84402CA9247FF3B400B3C7C0 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Country+CoreDataProperties.swift"; path = "coreDataRelationships/Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		84402CAE247FF6AB00B3C7C0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		84402CAF2480186500B3C7C0 /* coredatarel */ = {isa = PBXFileReference; lastKnownFileType = file; path = coredatarel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 				84402C8C247FEFBD00B3C7C0 /* coreDataRelationshipsTests */,
 				84402C97247FEFBD00B3C7C0 /* coreDataRelationshipsUITests */,
 				84402C71247FEFBB00B3C7C0 /* Products */,
-				84402CAF2480186500B3C7C0 /* coredatarel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84402C83247FEFBD00B3C7C0 /* LaunchScreen.storyboard in Resources */,
-				84402CB02480186500B3C7C0 /* coredatarel in Resources */,
 				84402C80247FEFBD00B3C7C0 /* Preview Assets.xcassets in Resources */,
 				84402C7D247FEFBD00B3C7C0 /* Assets.xcassets in Resources */,
 			);
