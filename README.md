@@ -28,6 +28,7 @@
 1. [UserNotifications Framework Delegate Protocol](https://www.devfright.com/use-usernotifications-framework-delegate-protocol/) - Handle notification actions
 1. [Clean Architecture/Deep Linking example](https://github.com/nalexn/clean-architecture-swiftui/blob/master/CountriesSwiftUI/System/AppEnvironment.swift#L21)
 1. [Navigate between views](https://blckbirds.com/post/how-to-navigate-between-views-in-swiftui-by-using-an-bindableobject/) - Great tutorial on Navigation thats not just the navigationview/list example but rather logic based between views
+1. [Swift $ Prefix](https://insights.dice.com/2019/06/12/xcode-swiftui-dollar-sign-prefix/) - Explains that $ is a 'read/write binding'
 
 ## Misc Useful Links
 
