@@ -21,6 +21,11 @@
 1. [Storyboard Actions](https://github.com/peterlamar/ios-examples/tree/master/warCardGame) - Add functions to storyboard 
 1. [UIKitNotification](https://github.com/peterlamar/ios-examples/tree/master/UIKitNotification) - Example of custom UIKit notification from Swift
 
+# Combine Examples
+
+1. [combine Grid Layout](https://medium.com/better-programming/playing-with-combine-grid-layout-in-swiftui-42e652d6462e) - Simple example using combine to layout an array and images
+1. [Visual Combine Magic](https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-1-3a56e2a461b3) - involved 4 step tutorial on swiftui and combine
+
 ## External Links Only
 
 1. [Dynamic Lists](https://medium.com/flawless-app-stories/swiftui-dynamic-list-identifiable-73c56215f9ff)
