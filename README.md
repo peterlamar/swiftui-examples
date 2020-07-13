@@ -24,6 +24,7 @@
 # Combine Examples
 
 1. [Basic Combine Example](https://www.avanderlee.com/swift/combine/) - Getting started, playground only example of pub/sub with Combine
+1. [Full Combine Playground](https://github.com/AvdLee/CombineSwiftPlayground) - Full Combine playground with examples
 1. [Combine Grid Layout](https://medium.com/better-programming/playing-with-combine-grid-layout-in-swiftui-42e652d6462e) - Simple example using combine to layout an array and images
 1. [Visual Combine Magic](https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-1-3a56e2a461b3) - involved 4 step tutorial on swiftui and combine
 
