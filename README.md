@@ -48,3 +48,4 @@
 1. [Parsing JSON with Swift](https://benscheirman.com/2017/06/swift-json/)
 1. [SwiftUI Guide](https://github.com/fzhlee/SwiftUI-Guide)
 1. [TestFlight tutorial](https://www.raywenderlich.com/5352-testflight-tutorial-ios-beta-testing)
+1. [Local notification testing](https://sarunw.com/posts/testing-remote-push-notification-in-ios-simulator/) 
