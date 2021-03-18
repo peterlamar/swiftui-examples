@@ -58,9 +58,10 @@
 # Swift Language Mechanics
 
 1. [initDescribing](#initDescribing)
+1. [map](#map)
 
 
-## initDescribing
+## InitDescribing
 
 [Creates a string representing the given value](https://developer.apple.com/documentation/swift/string/2427941-init) as a sort of [representation](https://stackoverflow.com/questions/50774273/what-is-the-different-between-stringdescribing-int-vs-stringint)
 
@@ -86,4 +87,14 @@ print("someDictionary is \(String(describing:someDictionary))") // someDictionar
 var optionalInteger: Int?
 optionalInteger = 42
 print("optionalInteger is \(String(describing:optionalInteger))") // optionalInteger is Optional(42)
+```
+
+## Map
+
+[Returns an array containing the results of mapping the given closure over the sequence’s elements.](https://developer.apple.com/documentation/swift/array/3017522-map)
+
+```swift
+let cast = ["Vivien", "Marlon", "Kim", "Karl"]
+let lowercaseNames = cast.map { $0.lowercased() } // 'lowercaseNames' == ["vivien", "marlon", "kim", "karl"]
+let letterCounts = cast.map { $0.count } // 'letterCounts' == [6, 6, 3, 4]
 ```
