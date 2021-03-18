@@ -53,3 +53,37 @@
 1. [SwiftUI Guide](https://github.com/fzhlee/SwiftUI-Guide)
 1. [TestFlight tutorial](https://www.raywenderlich.com/5352-testflight-tutorial-ios-beta-testing)
 1. [Local notification testing](https://sarunw.com/posts/testing-remote-push-notification-in-ios-simulator/) 
+
+
+# Swift Language Mechanics
+
+1. [initDescribing](#initDescribing)
+
+
+## initDescribing
+
+[Creates a string representing the given value](https://developer.apple.com/documentation/swift/string/2427941-init)
+
+```swift
+import Foundation
+struct Person {
+    var first: String
+    var last: String
+    var age: Int
+}
+let p = Person(first:"Matt", last:"Neuburg", age:3)
+print("p is \(String(describing:p))")  // p is Person(first: "Matt", last: "Neuburg", age: 3)
+let x = 3
+print("x is \(String(describing:x))") // x is 3
+var someTuple = (9, 99)  
+print("someTuple is \(String(describing:someTuple))") // someTuple is (9, 99)
+func someFunction(left: Int, right: Int) {}
+print("someFunction is \(String(describing:someFunction))") // someFunction is (Function)
+let someArray: [String] = ["Alex", "Brian", "Dave"]
+print("someArray is \(String(describing:someArray))") // someArray is ["Alex", "Brian", "Dave"]
+let someDictionary: [String: Int] = ["Alex": 31, "Paul": 39]
+print("someDictionary is \(String(describing:someDictionary))") // someDictionary is ["Paul": 39, "Alex": 31]
+var optionalInteger: Int?
+optionalInteger = 42
+print("optionalInteger is \(String(describing:optionalInteger))") // optionalInteger is Optional(42)
+```
