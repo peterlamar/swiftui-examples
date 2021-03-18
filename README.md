@@ -62,7 +62,7 @@
 
 ## initDescribing
 
-[Creates a string representing the given value](https://developer.apple.com/documentation/swift/string/2427941-init)
+[Creates a string representing the given value](https://developer.apple.com/documentation/swift/string/2427941-init) as a sort of [representation](https://stackoverflow.com/questions/50774273/what-is-the-different-between-stringdescribing-int-vs-stringint)
 
 ```swift
 import Foundation
