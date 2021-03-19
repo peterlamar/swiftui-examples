@@ -21,6 +21,8 @@ struct ContentView: View {
             if let document = document, document.exists {
                 let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
                 print("Document data: \(dataDescription)")
+                let property = document.get("name")
+                print("name field: \(String(describing: property))")
             } else {
                 print("Document does not exist")
             }
@@ -61,6 +63,18 @@ struct ContentView: View {
                 print("Error decoding city: \(error)")
             }
         }
+        
+        db.collection("cities").whereField("capital", isEqualTo: true)
+            .getDocuments() { (querySnapshot, err) in
+                if let err = err {
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                        print("\(document.documentID) => \(document.data())")
+                    }
+                }
+        }
+
           
     }
     var body: some View {
