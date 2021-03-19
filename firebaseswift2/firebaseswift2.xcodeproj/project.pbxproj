@@ -433,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.donutshop.firebaseswift2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donutshop.medbuddy;
 				PRODUCT_NAME = firebaseswift2;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -456,7 +456,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.donutshop.firebaseswift2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donutshop.medbuddy;
 				PRODUCT_NAME = firebaseswift2;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
