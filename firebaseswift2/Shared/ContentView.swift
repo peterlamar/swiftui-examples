@@ -5,18 +5,40 @@
 //  Created by Peter Lamar on 3/14/21.
 //
 
-import SwiftUI
 import Firebase
-
+import SwiftUI
 
 struct ContentView: View {
     private let db = Firestore.firestore()
 
-    init(){
+    init() {
+        // getOnce()
+        getRealtime()
+    }
 
+    func getRealtime() {
+        db.collection("cities").document("SF")
+            .addSnapshotListener { documentSnapshot, error in
+                guard let document = documentSnapshot else {
+                    print("Error fetching document: \(error!)")
+                    return
+                }
+                guard let data = document.data() else {
+                    print("Document data was empty.")
+                    return
+                }
+                // data is NSDictionary
+                print(data["state"]!)
+                for (key, value) in data {
+                    print("Value: \(value) for key: \(key)")
+                }
+            }
+    }
+
+    func getOnce() {
         let docRef = db.collection("cities").document("SF")
 
-        docRef.getDocument { (document, error) in
+        docRef.getDocument { document, _ in
             // Optional binding, completed in order
             if let document = document, document.exists {
                 let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
@@ -27,11 +49,10 @@ struct ContentView: View {
                 print("Document does not exist")
             }
         }
- 
-        
+
         let docRef2 = db.collection("cities").document("BJ")
 
-        docRef2.getDocument { (document, error) in
+        docRef2.getDocument { document, error in
             // Construct a Result type to encapsulate deserialization errors or
             // successful deserialization. Note that if there is no error thrown
             // the value may still be `nil`, indicating a successful deserialization
@@ -46,10 +67,10 @@ struct ContentView: View {
             //               /\
             //            Nil  City
             let result = Result {
-              document?.data()
+                document?.data()
             }
             switch result {
-            case Result.success(let city):
+            case let Result.success(city):
                 if let city = city {
                     // A `City` value was successfully initialized from the DocumentSnapshot.
                     print("City: \(city)")
@@ -58,14 +79,14 @@ struct ContentView: View {
                     // or the DocumentSnapshot was nil.
                     print("Document does not exist")
                 }
-            case .failure(let error):
+            case let .failure(error):
                 // A `City` value could not be initialized from the DocumentSnapshot.
                 print("Error decoding city: \(error)")
             }
         }
-        
+
         db.collection("cities").whereField("capital", isEqualTo: true)
-            .getDocuments() { (querySnapshot, err) in
+            .getDocuments { querySnapshot, err in
                 if let err = err {
                     print("Error getting documents: \(err)")
                 } else {
@@ -73,12 +94,11 @@ struct ContentView: View {
                         print("\(document.documentID) => \(document.data())")
                     }
                 }
-        }
-
-          
+            }
     }
+
     var body: some View {
-        Text("Hello, world!")
+        Text("Pokemon Training! - Shinies and Legendaries")
             .padding()
     }
 }
@@ -91,7 +111,6 @@ struct ContentView_Previews: PreviewProvider {
 
 // [START codable_struct]
 public struct City: Codable {
-
     let name: String
     let state: String?
     let country: String?
@@ -105,5 +124,4 @@ public struct City: Codable {
         case isCapital = "capital"
         case population
     }
-
 }
