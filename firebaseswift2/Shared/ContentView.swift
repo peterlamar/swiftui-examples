@@ -12,11 +12,12 @@ struct ContentView: View {
     private let db = Firestore.firestore()
 
     init() {
-        // getOnce()
+        getOnce()
         getRealtime()
     }
 
     func getRealtime() {
+        
         db.collection("cities").document("SF")
             .addSnapshotListener { documentSnapshot, error in
                 guard let document = documentSnapshot else {
@@ -33,6 +34,27 @@ struct ContentView: View {
                     print("Value: \(value) for key: \(key)")
                 }
             }
+        
+        db.collection("cities").document("SF")
+            .addSnapshotListener { documentSnapshot, error in
+                guard let document = documentSnapshot else {
+                    print("Error fetching document: \(error!)")
+                    return
+                }
+                let source = document.metadata.hasPendingWrites ? "Local" : "Server"
+                print("\(source) data: \(document.data() ?? [:])")
+            }
+        
+        db.collection("cities").document("SF")
+            .addSnapshotListener(includeMetadataChanges: true) { documentSnapshot, error in
+                guard let document = documentSnapshot else {
+                    print("Error fetching document: \(error!)")
+                    return
+                }
+                print("Including meta changes data: \(document.data() ?? [:])")
+
+            }
+ 
     }
 
     func getOnce() {
