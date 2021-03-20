@@ -29,9 +29,10 @@
 1. [Visual Combine Magic](https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-1-3a56e2a461b3) - involved 4 step tutorial on swiftui and combine
 1. [Combine Free E-Book](https://heckj.github.io/swiftui-notes/#aboutthisbook) - Full book about combine
 
-# AWS
+# Cloud
 
 1. [AWS AppSync/Combine Tutorial](https://github.com/peterlamar/swiftui-examples/tree/master/awsTodo) - Intro tutorial into AWS AppSync resources and service
+1. [Firebase Swift2](https://github.com/peterlamar/swiftui-examples/tree/master/firebaseswift2) - Google exercises updated for swift2
 
 ## External Links Only
 
