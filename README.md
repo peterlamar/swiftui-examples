@@ -14,6 +14,7 @@
 1. [sublistDelete](https://github.com/peterlamar/ios-examples/tree/master/sublistDelete) - Delete from a sublist with tricky swiftui syntax
 1. [coredatasample](https://github.com/peterlamar/ios-examples/tree/master/coredatasample) - Intro to storing data on iOS
 1. [coredatarelationships](https://github.com/peterlamar/ios-examples/tree/master/coreDataRelationships) - Core data with swiftui and member objects
+1. [photoLibrary](https://github.com/peterlamar/swiftui-examples/tree/master/photoLibrary) - load photos from phone's library using wrapped UIKit 
 
 # IOS-Examples UIKit
 
