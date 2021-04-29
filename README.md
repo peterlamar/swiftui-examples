@@ -44,6 +44,7 @@
 1. [Swift $ Prefix](https://insights.dice.com/2019/06/12/xcode-swiftui-dollar-sign-prefix/) - Explains that $ is a 'read/write binding'
 1. [@Binding vs @Published](https://stackoverflow.com/questions/59203083/swiftui-and-combine-what-is-the-difference-between-published-and-binding) - 'You'll generally use @Binding to pass a binding that originated from some source of truth (like @State) down the view hierarchy and @Published in an ObservableObject to allow a view to react to changes to a property.'
 1. [Expandable List](https://swiftsenpai.com/development/collectionview-expandable-list-part1/) Detailed UI kit implementation of an expandable list
+1. [Async Image Loading](https://github.com/V8tr/AsyncImage) Demonstrates how to load images from urls with loading text
 
 ## Misc Useful Links
 
